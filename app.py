@@ -48,7 +48,7 @@ patients = [
         'Name': 'Test0',
         'Email': 'Test0',
         'Phone': 'Test0',
-        'OtherDocumentId': 'teste1',
+        'OtherDocumentId': 'teste0',
         'Status': 'Test0',
         'BirthDate': 'Test0'
     },
@@ -57,7 +57,7 @@ patients = [
         'Name': 'Test1',
         'Email': 'Test1',
         'Phone': 'Test1',
-        'OtherDocumentId': 'teste',
+        'OtherDocumentId': 'teste1',
         'Status': 'Test1',
         'BirthDate': 'Test1'
     },
@@ -66,7 +66,7 @@ patients = [
         'Name': 'Test2',
         'Email': 'Test2',
         'Phone': 'Test2',
-        'OtherDocumentId': '2',
+        'OtherDocumentId': 'teste2',
         'Status': 'Test2',
         'BirthDate': 'Test2'
     },
@@ -87,12 +87,12 @@ appointments = [
     'AtomicDate': 20210717,
     'CreateUserId': -1,
     'Date': '2021-07-17T10:00:00.000Z',
-    'Id': 4791226171916292,
+    'Id': 1,
     'Type': 'CLOUDIA',
     'MobilePhone': '(31) 98712-3344',
     'SK_DateFirstTime': 920210717,
     'Deleted': '',
-    'OtherDocumentId': 'teste4',
+    'OtherDocumentId': 'teste3',
     'ToTime': '09:00',
     'FromTime': '09:30',
     'Email': 'joao.pedro@example.com',
@@ -109,12 +109,12 @@ appointments = [
     'AtomicDate': 20210718,
     'CreateUserId': -1,
     'Date': '2021-07-18T13:20:00.000Z',
-    'Id': 4791226171916293,
+    'Id': 2,
     'Type': 'CLOUDIA',
     'MobilePhone': '(41) 99888-7654',
     'SK_DateFirstTime': 920210718,
     'Deleted': 'X',
-    'OtherDocumentId': 'teste5',
+    'OtherDocumentId': 'teste2',
     'ToTime': '14:30',
     'FromTime': '15:30',
     'Email': 'aline.ramos@example.com',
@@ -131,12 +131,12 @@ appointments = [
     'AtomicDate': 20210719,
     'CreateUserId': -1,
     'Date': '2021-07-18T15:10:00.000Z',
-    'Id': 4791226171916294,
+    'Id': 3,
     'Type': 'CLOUDIA',
     'MobilePhone': '(62) 98745-1122',
     'SK_DateFirstTime': 920210719,
     'Deleted': '',
-    'OtherDocumentId': 'teste6',
+    'OtherDocumentId': 'teste1',
     'ToTime': '16:00',
     'FromTime': '17:00',
     'Email': 'bruno.matos@example.com',
@@ -153,12 +153,12 @@ appointments = [
     'AtomicDate': 20210720,
     'CreateUserId': -1,
     'Date': '2021-07-19T08:45:00.000Z',
-    'Id': 4791226171916295,
+    'Id': 4,
     'Type': 'CLOUDIA',
     'MobilePhone': '(48) 99999-1111',
     'SK_DateFirstTime': 920210720,
     'Deleted': '',
-    'OtherDocumentId': 'teste7',
+    'OtherDocumentId': 'teste2',
     'ToTime': '10:00',
     'FromTime': '11:00',
     'Email': 'lucas.farias@example.com',
@@ -175,12 +175,12 @@ appointments = [
     'AtomicDate': 20210721,
     'CreateUserId': -1,
     'Date': '2021-07-20T16:55:00.000Z',
-    'Id': 4791226171916296,
+    'Id': 5,
     'Type': 'CLOUDIA',
     'MobilePhone': '(27) 98444-5544',
     'SK_DateFirstTime': 920210721,
     'Deleted': '',
-    'OtherDocumentId': 'teste8',
+    'OtherDocumentId': 'teste3',
     'ToTime': '17:30',
     'FromTime': '18:00',
     'Email': 'renata.alves@example.com',
@@ -197,12 +197,12 @@ appointments = [
     'AtomicDate': 20210722,
     'CreateUserId': -1,
     'Date': '2021-07-21T12:40:00.000Z',
-    'Id': 4791226171916297,
+    'Id': 6,
     'Type': 'CLOUDIA',
     'MobilePhone': '(85) 99900-1234',
     'SK_DateFirstTime': 920210722,
     'Deleted': '',
-    'OtherDocumentId': 'teste9',
+    'OtherDocumentId': 'teste0',
     'ToTime': '13:00',
     'FromTime': '13:30',
     'Email': 'fernanda.gomes@example.com',
@@ -219,12 +219,12 @@ appointments = [
     'AtomicDate': 20210723,
     'CreateUserId': -1,
     'Date': '2021-07-22T08:15:00.000Z',
-    'Id': 4791226171916298,
+    'Id': 7,
     'Type': 'CLOUDIA',
     'MobilePhone': '(19) 98712-3456',
     'SK_DateFirstTime': 920210723,
     'Deleted': '',
-    'OtherDocumentId': 'teste5',
+    'OtherDocumentId': 'teste0',
     'ToTime': '09:00',
     'FromTime': '10:00',
     'Email': 'eduardo.santos@example.com',
@@ -258,7 +258,26 @@ def find_patient_appointments(OtherDocumentId):
             patient_appointment.append(appointment)
     return jsonify(patient_appointment)
 
-def edit_appointment(Id)
+@app.route('/TOTAL-IP-case/patient-appointments/<int:id>', methods=['PUT'])
+def edit_appointment(id):
+    updated_appointment = request.get_json()
+    for indice, appointment in enumerate(appointments):
+        if appointment.get('Id') == id:
+            appointments[indice].update(updated_appointment)
+            return jsonify(appointments[indice])
 
+@app.route('/TOTAL-IP-case/patient-appointments', methods=['POST'])
+def create_appointment():
+  new_appointment = request.get_json()
+  appointments.append(new_appointment)
+  return jsonify(appointments)
+
+@app.route('/TOTAL-IP-case/patient-appointments/<int:id>', methods=['DELETE'])
+def delete_appointment(id):
+  for indice, appointment in enumerate(appointments):
+        if appointment.get('Id') == id:
+            del appointments[indice]
+            return jsonify(appointments)
 
 app.run(port=5000,host='localhost',debug=True)
+
