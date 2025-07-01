@@ -10,8 +10,8 @@ import json
 import re
 
 # --- Configurações Iniciais ---
-account_sid = os.environ.get('TWILIO_ACCOUNT_SID', 'ACd8f5afe3d0aa5980742eae4575323d7a')
-auth_token = os.environ.get('TWILIO_AUTH_TOKEN', 'f7c0ebfdcd2b297507ba135fb20e7a09')
+account_sid = os.environ.get('TWILIO_ACCOUNT_SID', 'x')
+auth_token = os.environ.get('TWILIO_AUTH_TOKEN', 'x')
 client = Client(account_sid, auth_token)
 
 app = Flask(__name__)
