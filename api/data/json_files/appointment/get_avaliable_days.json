@@ -1,0 +1,500 @@
+[
+    {
+      "Date": "2025-07-01",
+      "Week": "Terça-Feira",
+      "DayWeek": 2,
+      "day": 1,
+      "month": 7,
+      "year": 2025,
+      "jsonDate": "2025-07-01",
+      "AvailableTimes": [
+        {
+          "from": "08:00",
+          "to": "08:30",
+          "isSelectable": true,
+          "isAvailable": true,
+          "isFirstActivate": "X",
+          "isSelected": false,
+          "professionalId": 3
+        },
+        {
+          "from": "08:30",
+          "to": "09:00",
+          "isSelectable": true,
+          "isAvailable": true,
+          "isFirstActivate": "X",
+          "isSelected": false,
+          "professionalId": 3
+        },
+        {
+          "from": "09:30",
+          "to": "10:00",
+          "isSelectable": true,
+          "isAvailable": true,
+          "isFirstActivate": "X",
+          "isSelected": false,
+          "professionalId": 3
+        },
+        {
+          "from": "10:00",
+          "to": "10:30",
+          "isSelectable": true,
+          "isAvailable": true,
+          "isFirstActivate": "X",
+          "isSelected": false,
+          "professionalId": 3
+        },
+        {
+          "from": "10:30",
+          "to": "11:00",
+          "isSelectable": true,
+          "isAvailable": true,
+          "isFirstActivate": "X",
+          "isSelected": false,
+          "professionalId": 3
+        }
+      ]
+    },
+    {
+      "Date": "2025-07-02",
+      "Week": "Quarta-Feira",
+      "DayWeek": 3,
+      "day": 2,
+      "month": 7,
+      "year": 2025,
+      "jsonDate": "2025-07-02",
+      "AvailableTimes": [
+        {
+          "from": "08:00",
+          "to": "08:30",
+          "isSelectable": true,
+          "isAvailable": true,
+          "isFirstActivate": "X",
+          "isSelected": false,
+          "professionalId": 1
+        },
+        {
+          "from": "08:30",
+          "to": "09:00",
+          "isSelectable": true,
+          "isAvailable": true,
+          "isFirstActivate": "X",
+          "isSelected": false,
+          "professionalId": 1
+        },
+        {
+          "from": "09:00",
+          "to": "09:30",
+          "isSelectable": true,
+          "isAvailable": true,
+          "isFirstActivate": "X",
+          "isSelected": false,
+          "professionalId": 1
+        },
+        {
+          "from": "09:30",
+          "to": "10:00",
+          "isSelectable": true,
+          "isAvailable": true,
+          "isFirstActivate": "X",
+          "isSelected": false,
+          "professionalId": 1
+        },
+        {
+          "from": "10:00",
+          "to": "10:30",
+          "isSelectable": true,
+          "isAvailable": true,
+          "isFirstActivate": "X",
+          "isSelected": false,
+          "professionalId": 1
+        },
+        {
+          "from": "10:30",
+          "to": "11:00",
+          "isSelectable": true,
+          "isAvailable": true,
+          "isFirstActivate": "X",
+          "isSelected": false,
+          "professionalId": 1
+        },
+        {
+          "from": "11:00",
+          "to": "11:30",
+          "isSelectable": true,
+          "isAvailable": true,
+          "isFirstActivate": "X",
+          "isSelected": false,
+          "professionalId": 1
+        },
+        {
+          "from": "11:30",
+          "to": "12:00",
+          "isSelectable": true,
+          "isAvailable": true,
+          "isFirstActivate": "X",
+          "isSelected": false,
+          "professionalId": 1
+        },
+        {
+          "from": "13:00",
+          "to": "13:30",
+          "isSelectable": true,
+          "isAvailable": true,
+          "isFirstActivate": "X",
+          "isSelected": false,
+          "professionalId": 1
+        },
+        {
+          "from": "13:30",
+          "to": "14:00",
+          "isSelectable": true,
+          "isAvailable": true,
+          "isFirstActivate": "X",
+          "isSelected": false,
+          "professionalId": 1
+        },
+        {
+          "from": "14:00",
+          "to": "14:15",
+          "isSelectable": true,
+          "isAvailable": true,
+          "isFirstActivate": "X",
+          "isSelected": false,
+          "professionalId": 1
+        },
+        {
+          "from": "14:45",
+          "to": "15:00",
+          "isSelectable": true,
+          "isAvailable": true,
+          "isFirstActivate": "X",
+          "isSelected": false,
+          "professionalId": 1
+        },
+        {
+          "from": "15:00",
+          "to": "15:30",
+          "isSelectable": true,
+          "isAvailable": true,
+          "isFirstActivate": "X",
+          "isSelected": false,
+          "professionalId": 1
+        }
+      ]
+    },
+    {
+      "Date": "2025-07-03",
+      "Week": "Quinta-Feira",
+      "DayWeek": 4,
+      "day": 3,
+      "month": 7,
+      "year": 2025,
+      "jsonDate": "2025-07-03",
+      "AvailableTimes": [
+        {
+          "from": "09:00",
+          "to": "09:30",
+          "isSelectable": true,
+          "isAvailable": true,
+          "isFirstActivate": "X",
+          "isSelected": false,
+          "professionalId": 1
+        },
+        {
+          "from": "09:30",
+          "to": "10:00",
+          "isSelectable": true,
+          "isAvailable": true,
+          "isFirstActivate": "X",
+          "isSelected": false,
+          "professionalId": 1
+        },
+        {
+          "from": "10:00",
+          "to": "10:30",
+          "isSelectable": true,
+          "isAvailable": true,
+          "isFirstActivate": "X",
+          "isSelected": false,
+          "professionalId": 1
+        },
+        {
+          "from": "10:30",
+          "to": "11:00",
+          "isSelectable": true,
+          "isAvailable": true,
+          "isFirstActivate": "X",
+          "isSelected": false,
+          "professionalId": 1
+        },
+        {
+          "from": "11:30",
+          "to": "12:00",
+          "isSelectable": true,
+          "isAvailable": true,
+          "isFirstActivate": "X",
+          "isSelected": false,
+          "professionalId": 1
+        }
+      ]
+    },
+    {
+      "Date": "2025-07-04",
+      "Week": "Sexta-Feira",
+      "DayWeek": 5,
+      "day": 4,
+      "month": 7,
+      "year": 2025,
+      "jsonDate": "2025-07-04",
+      "AvailableTimes": [
+        {
+          "from": "08:00",
+          "to": "08:30",
+          "isSelectable": true,
+          "isAvailable": true,
+          "isFirstActivate": "X",
+          "isSelected": false,
+          "professionalId": 2
+        },
+        {
+          "from": "08:30",
+          "to": "09:00",
+          "isSelectable": true,
+          "isAvailable": true,
+          "isFirstActivate": "X",
+          "isSelected": false,
+          "professionalId": 2
+        },
+        {
+          "from": "09:00",
+          "to": "09:30",
+          "isSelectable": true,
+          "isAvailable": true,
+          "isFirstActivate": "X",
+          "isSelected": false,
+          "professionalId": 2
+        },
+        {
+          "from": "09:30",
+          "to": "10:00",
+          "isSelectable": true,
+          "isAvailable": true,
+          "isFirstActivate": "X",
+          "isSelected": false,
+          "professionalId": 2
+        },
+        {
+          "from": "10:00",
+          "to": "10:30",
+          "isSelectable": true,
+          "isAvailable": true,
+          "isFirstActivate": "X",
+          "isSelected": false,
+          "professionalId": 2
+        },
+        {
+          "from": "10:45",
+          "to": "11:00",
+          "isSelectable": true,
+          "isAvailable": true,
+          "isFirstActivate": "X",
+          "isSelected": false,
+          "professionalId": 2
+        },
+        {
+          "from": "11:00",
+          "to": "11:30",
+          "isSelectable": true,
+          "isAvailable": true,
+          "isFirstActivate": "X",
+          "isSelected": false,
+          "professionalId": 2
+        }
+      ]
+    },
+    {
+      "Date": "2025-07-05",
+      "Week": "Sábado",
+      "DayWeek": 6,
+      "day": 5,
+      "month": 7,
+      "year": 2025,
+      "jsonDate": "2025-07-05",
+      "AvailableTimes": [
+        {
+          "from": "08:00",
+          "to": "08:30",
+          "isSelectable": true,
+          "isAvailable": true,
+          "isFirstActivate": "X",
+          "isSelected": false,
+          "professionalId": 2
+        },
+        {
+          "from": "08:30",
+          "to": "09:00",
+          "isSelectable": true,
+          "isAvailable": true,
+          "isFirstActivate": "X",
+          "isSelected": false,
+          "professionalId": 2
+        },
+        {
+          "from": "09:00",
+          "to": "09:30",
+          "isSelectable": true,
+          "isAvailable": true,
+          "isFirstActivate": "X",
+          "isSelected": false,
+          "professionalId": 2
+        },
+        {
+          "from": "09:30",
+          "to": "10:00",
+          "isSelectable": true,
+          "isAvailable": true,
+          "isFirstActivate": "X",
+          "isSelected": false,
+          "professionalId": 2
+        },
+        {
+          "from": "10:30",
+          "to": "11:00",
+          "isSelectable": true,
+          "isAvailable": true,
+          "isFirstActivate": "X",
+          "isSelected": false,
+          "professionalId": 2
+        },
+        {
+          "from": "11:00",
+          "to": "11:30",
+          "isSelectable": true,
+          "isAvailable": true,
+          "isFirstActivate": "X",
+          "isSelected": false,
+          "professionalId": 2
+        }
+      ]
+    },
+    {
+      "Date": "2025-07-06",
+      "Week": "Domingo",
+      "DayWeek": 0,
+      "day": 6,
+      "month": 7,
+      "year": 2025,
+      "jsonDate": "2025-07-06",
+      "AvailableTimes": [
+        {
+          "from": "08:00",
+          "to": "08:30",
+          "isSelectable": true,
+          "isAvailable": true,
+          "isFirstActivate": "X",
+          "isSelected": false,
+          "professionalId": 1
+        },
+        {
+          "from": "08:30",
+          "to": "09:00",
+          "isSelectable": true,
+          "isAvailable": true,
+          "isFirstActivate": "X",
+          "isSelected": false,
+          "professionalId": 1
+        },
+        {
+          "from": "09:00",
+          "to": "09:30",
+          "isSelectable": true,
+          "isAvailable": true,
+          "isFirstActivate": "X",
+          "isSelected": false,
+          "professionalId": 1
+        },
+        {
+          "from": "09:30",
+          "to": "10:00",
+          "isSelectable": true,
+          "isAvailable": true,
+          "isFirstActivate": "X",
+          "isSelected": false,
+          "professionalId": 1
+        },
+        {
+          "from": "10:00",
+          "to": "10:30",
+          "isSelectable": true,
+          "isAvailable": true,
+          "isFirstActivate": "X",
+          "isSelected": false,
+          "professionalId": 1
+        },
+        {
+          "from": "10:30",
+          "to": "11:00",
+          "isSelectable": true,
+          "isAvailable": true,
+          "isFirstActivate": "X",
+          "isSelected": false,
+          "professionalId": 1
+        },
+        {
+          "from": "11:00",
+          "to": "11:30",
+          "isSelectable": true,
+          "isAvailable": true,
+          "isFirstActivate": "X",
+          "isSelected": false,
+          "professionalId": 1
+        },
+        {
+          "from": "11:30",
+          "to": "12:00",
+          "isSelectable": true,
+          "isAvailable": true,
+          "isFirstActivate": "X",
+          "isSelected": false,
+          "professionalId": 1
+        },
+        {
+          "from": "13:00",
+          "to": "13:30",
+          "isSelectable": true,
+          "isAvailable": true,
+          "isFirstActivate": "X",
+          "isSelected": false,
+          "professionalId": 1
+        },
+        {
+          "from": "13:30",
+          "to": "14:00",
+          "isSelectable": true,
+          "isAvailable": true,
+          "isFirstActivate": "X",
+          "isSelected": false,
+          "professionalId": 1
+        },
+        {
+          "from": "14:45",
+          "to": "15:00",
+          "isSelectable": true,
+          "isAvailable": true,
+          "isFirstActivate": "X",
+          "isSelected": false,
+          "professionalId": 1
+        },
+        {
+          "from": "15:00",
+          "to": "15:30",
+          "isSelectable": true,
+          "isAvailable": true,
+          "isFirstActivate": "X",
+          "isSelected": false,
+          "professionalId": 1
+        }
+      ]
+    }
+  ]

@@ -1,0 +1,38 @@
+[
+    {
+      "PatientId": 1,
+      "Name": "Ana Silva",
+      "Email": "ana.silva@email.com",
+      "Phone": "5511975385462",
+      "OtherDocumentId": "123456789",
+      "Status": "Ativo",
+      "BirthDate": "1985-03-10"
+    },
+    {
+      "PatientId": 2,
+      "Name": "Bruno Costa",
+      "Email": "bruno.costa@email.com",
+      "Phone": "5511975385462",
+      "OtherDocumentId": "987654321",
+      "Status": "Ativo",
+      "BirthDate": "1992-07-22"
+    },
+    {
+      "PatientId": 3,
+      "Name": "Carla Lima",
+      "Email": "carla.lima@email.com",
+      "Phone": "5511975385462",
+      "OtherDocumentId": "112233445",
+      "Status": "Inativo",
+      "BirthDate": "1970-01-05"
+    },
+    {
+      "PatientId": 4,
+      "Name": "Daniel Santos",
+      "Email": "daniel.santos@email.com",
+      "Phone": "5511975385462",
+      "OtherDocumentId": "667788990",
+      "Status": "Ativo",
+      "BirthDate": "2000-11-30"
+    }
+  ]

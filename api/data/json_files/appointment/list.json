@@ -1,0 +1,113 @@
+[
+
+    {
+    "id": 101,
+    "Notes": "Consulta de rotina com o cardiologista.",
+    "Email": "ana.silva@email.com",
+    "AtomicDate": 20250701,
+    "PatientName": "Ana Silva",
+    "date": "2025-07-01",
+    "MobilePhone": "5511987654321",
+    "referenceMonth": "Julho",
+    "fromTime": "09:00",
+    "toTime": "09:30",
+    "Session": 1,
+    "Sequence": 1,
+    "CreatedUserId": 2,
+    "CreatedUserName": "Bot Agendamento"
+    
+    },
+    
+    {
+    "id": 102,
+    "Notes": "Retorno para resultados de exames.",
+    "Email": "bruno.costa@email.com",
+    "AtomicDate": 20250702,
+    "PatientName": "Bruno Costa",
+    "date": "2025-07-02",
+    "MobilePhone": "5521912345678",
+    "referenceMonth": "Julho",
+    "fromTime": "14:15",
+    "toTime": "14:45",
+    "Session": 1,
+    "Sequence": 1,
+    "CreatedUserId": 1,
+    "CreatedUserName": "Admin Total IP"
+    
+    },
+    
+    {
+    "id": 103,
+    "Notes": "Agendamento para avaliação dermatológica.",
+    "Email": "daniel.santos@email.com",
+    "AtomicDate": 20250703,
+    "PatientName": "Daniel Santos",
+    "date": "2025-07-03",
+    "MobilePhone": "5541933332222",
+    "referenceMonth": "Julho",
+    "fromTime": "11:00",
+    "toTime": "11:30",
+    "Session": 1,
+    "Sequence": 1,
+    "CreatedUserId": 2,
+    "CreatedUserName": "Bot Agendamento"
+    
+    },
+    
+    {
+    "id": 104,
+    "Notes": "Consulta de emergência - reagendamento.",
+    "Email": "carla.lima@email.com",
+    "AtomicDate": 20250704,
+    "PatientName": "Carla Lima",
+    "date": "2025-07-04",
+    "MobilePhone": "5531955554444",
+    "referenceMonth": "Julho",
+    "fromTime": "10:30",
+    "toTime": "10:45",
+    "Session": 1,
+    "Sequence": 1,
+    "CreatedUserId": 1,
+    "CreatedUserName": "Admin Total IP"
+    
+    },
+    
+    {
+    "id": 105,
+    "Notes": "Agendamento para exames de rotina.",
+    "Email": "carla.lima@email.com",
+    "AtomicDate": 20250705,
+    "PatientName": "Carla Lima",
+    "date": "2025-07-05",
+    "MobilePhone": "5531955554444",
+    "referenceMonth": "Julho",
+    "fromTime": "10:00",
+    "toTime": "10:30",
+    "Session": 1,
+    "Sequence": 1,
+    "CreatedUserId": 1,
+    "CreatedUserName": "Admin Total IP"
+    
+    },
+    
+    {
+    "id": 106,
+    "Notes": "Consulta de retorno com ortopedista.",
+    "Email": "carla.lima@email.com",
+    "AtomicDate": 20250706,
+    "PatientName": "Carla Lima",
+    "date": "2025-07-06",
+    "MobilePhone": "5531955554444",
+    "referenceMonth": "Julho",
+    "fromTime": "14:00",
+    "toTime": "14:45",
+    "Session": 2,
+    "Sequence": 1,
+    "CreatedUserId": 2,
+    "CreatedUserName": "Bot Agendamento"
+    
+    }
+    
+    ]
+    
+    

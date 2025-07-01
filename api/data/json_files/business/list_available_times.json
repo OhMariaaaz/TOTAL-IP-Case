@@ -1,0 +1,860 @@
+[
+    {
+      "date": "20250701",
+      "clinic": "Hospital Nube Saúde - Unidade Oeste",
+      "slots": [
+        {
+          "slotTime": "20250702",
+          "fromTime": "08:00",
+          "toTime": "08:30"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "08:30",
+          "toTime": "09:00"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "09:00",
+          "toTime": "09:30"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "09:30",
+          "toTime": "10:00"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "10:00",
+          "toTime": "10:30"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "10:30",
+          "toTime": "11:00"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "11:00",
+          "toTime": "11:30"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "11:30",
+          "toTime": "12:00"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "13:00",
+          "toTime": "13:30"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "13:30",
+          "toTime": "14:00"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "14:00",
+          "toTime": "14:15"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "14:45",
+          "toTime": "15:00"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "15:00",
+          "toTime": "15:30"
+        }
+      ]
+    },
+    {
+      "date": "20250702",
+      "clinic": "Clínica Nube Saúde - Unidade Central",
+      "slots": [
+        {
+          "slotTime": "20250702",
+          "fromTime": "08:00",
+          "toTime": "08:30"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "08:30",
+          "toTime": "09:00"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "09:00",
+          "toTime": "09:30"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "09:30",
+          "toTime": "10:00"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "10:00",
+          "toTime": "10:30"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "10:30",
+          "toTime": "11:00"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "11:00",
+          "toTime": "11:30"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "11:30",
+          "toTime": "12:00"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "13:00",
+          "toTime": "13:30"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "13:30",
+          "toTime": "14:00"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "14:00",
+          "toTime": "14:15"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "14:45",
+          "toTime": "15:00"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "15:00",
+          "toTime": "15:30"
+        }
+      ]
+    },
+    {
+      "date": "20250703",
+      "clinic": "Clínica Nube Saúde - Unidade Central",
+      "slots": [
+        {
+          "slotTime": "20250702",
+          "fromTime": "08:00",
+          "toTime": "08:30"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "08:30",
+          "toTime": "09:00"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "09:00",
+          "toTime": "09:30"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "09:30",
+          "toTime": "10:00"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "10:00",
+          "toTime": "10:30"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "10:30",
+          "toTime": "11:00"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "11:00",
+          "toTime": "11:30"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "11:30",
+          "toTime": "12:00"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "13:00",
+          "toTime": "13:30"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "13:30",
+          "toTime": "14:00"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "14:00",
+          "toTime": "14:15"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "14:45",
+          "toTime": "15:00"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "15:00",
+          "toTime": "15:30"
+        }
+      ]
+    },
+    {
+      "date": "20250704",
+      "clinic": "Hospital Nube Saúde - Unidade Leste",
+      "slots": [
+        {
+          "slotTime": "20250702",
+          "fromTime": "08:00",
+          "toTime": "08:30"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "08:30",
+          "toTime": "09:00"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "09:00",
+          "toTime": "09:30"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "09:30",
+          "toTime": "10:00"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "10:00",
+          "toTime": "10:30"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "10:30",
+          "toTime": "11:00"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "11:00",
+          "toTime": "11:30"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "11:30",
+          "toTime": "12:00"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "13:00",
+          "toTime": "13:30"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "13:30",
+          "toTime": "14:00"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "14:00",
+          "toTime": "14:15"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "14:45",
+          "toTime": "15:00"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "15:00",
+          "toTime": "15:30"
+        }
+      ]
+    },
+    {
+      "date": "20250705",
+      "clinic": "Hospital Nube Saúde - Unidade Leste",
+      "slots": [
+        {
+          "slotTime": "20250702",
+          "fromTime": "08:00",
+          "toTime": "08:30"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "08:30",
+          "toTime": "09:00"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "09:00",
+          "toTime": "09:30"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "09:30",
+          "toTime": "10:00"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "10:00",
+          "toTime": "10:30"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "10:30",
+          "toTime": "11:00"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "11:00",
+          "toTime": "11:30"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "11:30",
+          "toTime": "12:00"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "13:00",
+          "toTime": "13:30"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "13:30",
+          "toTime": "14:00"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "14:00",
+          "toTime": "14:15"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "14:45",
+          "toTime": "15:00"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "15:00",
+          "toTime": "15:30"
+        }
+      ]
+    },
+    {
+      "date": "20250706",
+      "clinic": "Clínica Nube Saúde - Unidade Central",
+      "slots": [
+        {
+          "slotTime": "20250702",
+          "fromTime": "08:00",
+          "toTime": "08:30"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "08:30",
+          "toTime": "09:00"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "09:00",
+          "toTime": "09:30"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "09:30",
+          "toTime": "10:00"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "10:00",
+          "toTime": "10:30"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "10:30",
+          "toTime": "11:00"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "11:00",
+          "toTime": "11:30"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "11:30",
+          "toTime": "12:00"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "13:00",
+          "toTime": "13:30"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "13:30",
+          "toTime": "14:00"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "14:00",
+          "toTime": "14:15"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "14:45",
+          "toTime": "15:00"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "15:00",
+          "toTime": "15:30"
+        }
+      ]
+    },
+    {
+      "date": "20250701",
+      "clinicName": "Hospital Nube Saúde - Unidade Oeste",
+      "address": "Av. Francisco Matarazzo, 1500 - Água Branca, São Paulo - SP",
+      "slots": [
+        {
+          "slotTime": "20250702",
+          "fromTime": "08:00",
+          "toTime": "08:30"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "08:30",
+          "toTime": "09:00"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "09:00",
+          "toTime": "09:30"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "09:30",
+          "toTime": "10:00"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "10:00",
+          "toTime": "10:30"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "10:30",
+          "toTime": "11:00"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "11:00",
+          "toTime": "11:30"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "11:30",
+          "toTime": "12:00"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "13:00",
+          "toTime": "13:30"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "13:30",
+          "toTime": "14:00"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "14:00",
+          "toTime": "14:15"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "14:45",
+          "toTime": "15:00"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "15:00",
+          "toTime": "15:30"
+        }
+      ]
+    },
+    {
+      "date": "20250702",
+      "clinicName": "Clínica Nube Saúde - Unidade Central",
+      "address": "Rua da Consolação, 1500 - Consolação, São Paulo - SP",
+      "slots": [
+        {
+          "slotTime": "20250702",
+          "fromTime": "08:00",
+          "toTime": "08:30"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "08:30",
+          "toTime": "09:00"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "09:00",
+          "toTime": "09:30"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "09:30",
+          "toTime": "10:00"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "10:00",
+          "toTime": "10:30"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "10:30",
+          "toTime": "11:00"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "11:00",
+          "toTime": "11:30"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "11:30",
+          "toTime": "12:00"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "13:00",
+          "toTime": "13:30"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "13:30",
+          "toTime": "14:00"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "14:00",
+          "toTime": "14:15"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "14:45",
+          "toTime": "15:00"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "15:00",
+          "toTime": "15:30"
+        }
+      ]
+    },
+    {
+      "date": "20250703",
+      "clinicName": "Clínica Nube Saúde - Unidade Central",
+      "address": "Rua da Consolação, 1500 - Consolação, São Paulo - SP",
+      "slots": [
+        {
+          "slotTime": "20250702",
+          "fromTime": "08:00",
+          "toTime": "08:30"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "08:30",
+          "toTime": "09:00"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "09:00",
+          "toTime": "09:30"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "09:30",
+          "toTime": "10:00"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "10:00",
+          "toTime": "10:30"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "10:30",
+          "toTime": "11:00"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "11:00",
+          "toTime": "11:30"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "11:30",
+          "toTime": "12:00"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "13:00",
+          "toTime": "13:30"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "13:30",
+          "toTime": "14:00"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "14:00",
+          "toTime": "14:15"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "14:45",
+          "toTime": "15:00"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "15:00",
+          "toTime": "15:30"
+        }
+      ]
+    },
+    {
+      "date": "20250704",
+      "clinicName": "Hospital Nube Saúde - Unidade Leste",
+      "address": "Av. Celso Garcia, 4000 - Tatuapé, São Paulo - SP",
+      "slots": [
+        {
+          "slotTime": "20250702",
+          "fromTime": "08:00",
+          "toTime": "08:30"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "08:30",
+          "toTime": "09:00"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "09:00",
+          "toTime": "09:30"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "09:30",
+          "toTime": "10:00"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "10:00",
+          "toTime": "10:30"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "10:30",
+          "toTime": "11:00"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "11:00",
+          "toTime": "11:30"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "11:30",
+          "toTime": "12:00"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "13:00",
+          "toTime": "13:30"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "13:30",
+          "toTime": "14:00"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "14:00",
+          "toTime": "14:15"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "14:45",
+          "toTime": "15:00"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "15:00",
+          "toTime": "15:30"
+        }
+      ]
+    },
+    {
+      "date": "20250705",
+      "clinicName": "Hospital Nube Saúde - Unidade Leste",
+      "address": "Av. Celso Garcia, 4000 - Tatuapé, São Paulo - SP",
+      "slots": [
+        {
+          "slotTime": "20250702",
+          "fromTime": "08:00",
+          "toTime": "08:30"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "08:30",
+          "toTime": "09:00"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "09:00",
+          "toTime": "09:30"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "09:30",
+          "toTime": "10:00"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "10:00",
+          "toTime": "10:30"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "10:30",
+          "toTime": "11:00"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "11:00",
+          "toTime": "11:30"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "11:30",
+          "toTime": "12:00"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "13:00",
+          "toTime": "13:30"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "13:30",
+          "toTime": "14:00"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "14:00",
+          "toTime": "14:15"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "14:45",
+          "toTime": "15:00"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "15:00",
+          "toTime": "15:30"
+        }
+      ]
+    },
+    {
+      "date": "20250706",
+      "clinicName": "Clínica Nube Saúde - Unidade Central",
+      "address": "Rua da Consolação, 1500 - Consolação, São Paulo - SP",
+      "slots": [
+        {
+          "slotTime": "20250702",
+          "fromTime": "08:00",
+          "toTime": "08:30"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "08:30",
+          "toTime": "09:00"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "09:00",
+          "toTime": "09:30"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "09:30",
+          "toTime": "10:00"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "10:00",
+          "toTime": "10:30"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "10:30",
+          "toTime": "11:00"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "11:00",
+          "toTime": "11:30"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "11:30",
+          "toTime": "12:00"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "13:00",
+          "toTime": "13:30"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "13:30",
+          "toTime": "14:00"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "14:00",
+          "toTime": "14:15"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "14:45",
+          "toTime": "15:00"
+        },
+        {
+          "slotTime": "20250702",
+          "fromTime": "15:00",
+          "toTime": "15:30"
+        }
+      ]
+    }
+  ]

@@ -1,0 +1,32 @@
+[
+    {
+      "id": 1,
+      "Description": "Clinico Geral",
+      "Color": "#4CAF50"
+    },
+    {
+      "id": 2,
+      "Description": "Pediatria",
+      "Color": "#2196F3"
+    },
+    {
+      "id": 3,
+      "Description": "Geriatria",
+      "Color": "#FFC107"
+    },
+    {
+      "id": 4,
+      "Description": "Exame Laboral",
+      "Color": "#9C27B0"
+    },
+    {
+      "id": 5,
+      "Description": "Retorno",
+      "Color": "#FF5722"
+    },
+    {
+      "id": 6,
+      "Description": "Urgência/Emergência",
+      "Color": "#F44336"
+    }
+  ]

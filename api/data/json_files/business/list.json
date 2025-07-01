@@ -1,0 +1,50 @@
+[
+    {
+      "id": 1,
+      "CompanyId": 1001,
+      "BusinessName": "Clínica Nube Saúde - Unidade Central",
+      "Name": "Clínica Central",
+      "Address": "Rua da Consolação, 1500 - Consolação, São Paulo - SP",
+      "Email": "contato.central@nubeclinicas.com.br"
+    },
+    {
+      "id": 2,
+      "CompanyId": 1001,
+      "BusinessName": "Hospital Nube Saúde - Unidade Leste",
+      "Name": "Hospital Nube Saúde",
+      "Address": "Av. Celso Garcia, 4000 - Tatuapé, São Paulo - SP",
+      "Email": "contato.leste@nubehospitais.com.br"
+    },
+    {
+      "id": 3,
+      "CompanyId": 1001,
+      "BusinessName": "Hospital Nube Saúde - Unidade Oeste",
+      "Name": "Hospital Nube Saúde",
+      "Address": "Av. Francisco Matarazzo, 1500 - Água Branca, São Paulo - SP",
+      "Email": "contato.oeste@nubehospitais.com.br"
+    },
+    {
+      "id": 4,
+      "CompanyId": 1001,
+      "BusinessName": "Hospital Nube Saúde - Unidade Sul",
+      "Name": "Hospital Nube Saúde",
+      "Address": "Av. Santo Amaro, 500 - Vila Nova Conceição, São Paulo - SP",
+      "Email": "contato.sul@nubehospitais.com.br"
+    },
+    {
+      "id": 8,
+      "CompanyId": 1001,
+      "BusinessName": "Clínica Nube Saúde - Cardiologia",
+      "Name": "Clínica Especializada em Cardiologia",
+      "Address": "Rua Vergueiro, 1350 - Vila Mariana, São Paulo - SP",
+      "Email": "cardiologia@nubeclinicas.com.br"
+    },
+    {
+      "id": 9,
+      "CompanyId": 1001,
+      "BusinessName": "Clínica Nube Saúde - Exames e Diagnósticos",
+      "Name": "Centro de Diagnóstico Avançado",
+      "Address": "Av. Paulista, 2000 - Cerqueira César, São Paulo - SP",
+      "Email": "diagnostico@nubeclinicas.com.br"
+    }
+  ]

@@ -1,0 +1,338 @@
+[
+    {
+      "From": "08:00",
+      "To": "08:30",
+      "DayWeek": 1,
+      "BusinessId": 8,
+      "ProfessionalId": 3
+    },
+    {
+      "From": "08:30",
+      "To": "09:00",
+      "DayWeek": 1,
+      "BusinessId": 8,
+      "ProfessionalId": 3
+    },
+    {
+      "From": "09:30",
+      "To": "10:00",
+      "DayWeek": 1,
+      "BusinessId": 8,
+      "ProfessionalId": 3
+    },
+    {
+      "From": "10:00",
+      "To": "10:30",
+      "DayWeek": 1,
+      "BusinessId": 8,
+      "ProfessionalId": 3
+    },
+    {
+      "From": "10:30",
+      "To": "11:00",
+      "DayWeek": 1,
+      "BusinessId": 8,
+      "ProfessionalId": 3
+    },
+    {
+      "From": "08:00",
+      "To": "08:30",
+      "DayWeek": 2,
+      "BusinessId": 9,
+      "ProfessionalId": 1
+    },
+    {
+      "From": "08:30",
+      "To": "09:00",
+      "DayWeek": 2,
+      "BusinessId": 9,
+      "ProfessionalId": 1
+    },
+    {
+      "From": "09:00",
+      "To": "09:30",
+      "DayWeek": 2,
+      "BusinessId": 9,
+      "ProfessionalId": 1
+    },
+    {
+      "From": "09:30",
+      "To": "10:00",
+      "DayWeek": 2,
+      "BusinessId": 9,
+      "ProfessionalId": 1
+    },
+    {
+      "From": "10:00",
+      "To": "10:30",
+      "DayWeek": 2,
+      "BusinessId": 9,
+      "ProfessionalId": 1
+    },
+    {
+      "From": "10:30",
+      "To": "11:00",
+      "DayWeek": 2,
+      "BusinessId": 9,
+      "ProfessionalId": 1
+    },
+    {
+      "From": "11:00",
+      "To": "11:30",
+      "DayWeek": 2,
+      "BusinessId": 9,
+      "ProfessionalId": 1
+    },
+    {
+      "From": "11:30",
+      "To": "12:00",
+      "DayWeek": 2,
+      "BusinessId": 9,
+      "ProfessionalId": 1
+    },
+    {
+      "From": "13:00",
+      "To": "13:30",
+      "DayWeek": 2,
+      "BusinessId": 9,
+      "ProfessionalId": 1
+    },
+    {
+      "From": "13:30",
+      "To": "14:00",
+      "DayWeek": 2,
+      "BusinessId": 9,
+      "ProfessionalId": 1
+    },
+    {
+      "From": "14:00",
+      "To": "14:15",
+      "DayWeek": 2,
+      "BusinessId": 9,
+      "ProfessionalId": 1
+    },
+    {
+      "From": "14:45",
+      "To": "15:00",
+      "DayWeek": 2,
+      "BusinessId": 9,
+      "ProfessionalId": 1
+    },
+    {
+      "From": "15:00",
+      "To": "15:30",
+      "DayWeek": 2,
+      "BusinessId": 9,
+      "ProfessionalId": 1
+    },
+    {
+      "From": "09:00",
+      "To": "09:30",
+      "DayWeek": 3,
+      "BusinessId": 3,
+      "ProfessionalId": 1
+    },
+    {
+      "From": "09:30",
+      "To": "10:00",
+      "DayWeek": 3,
+      "BusinessId": 3,
+      "ProfessionalId": 1
+    },
+    {
+      "From": "10:00",
+      "To": "10:30",
+      "DayWeek": 3,
+      "BusinessId": 3,
+      "ProfessionalId": 1
+    },
+    {
+      "From": "10:30",
+      "To": "11:00",
+      "DayWeek": 3,
+      "BusinessId": 3,
+      "ProfessionalId": 1
+    },
+    {
+      "From": "11:30",
+      "To": "12:00",
+      "DayWeek": 3,
+      "BusinessId": 3,
+      "ProfessionalId": 1
+    },
+    {
+      "From": "08:00",
+      "To": "08:30",
+      "DayWeek": 4,
+      "BusinessId": 4,
+      "ProfessionalId": 2
+    },
+    {
+      "From": "08:30",
+      "To": "09:00",
+      "DayWeek": 4,
+      "BusinessId": 4,
+      "ProfessionalId": 2
+    },
+    {
+      "From": "09:00",
+      "To": "09:30",
+      "DayWeek": 4,
+      "BusinessId": 4,
+      "ProfessionalId": 2
+    },
+    {
+      "From": "09:30",
+      "To": "10:00",
+      "DayWeek": 4,
+      "BusinessId": 4,
+      "ProfessionalId": 2
+    },
+    {
+      "From": "10:00",
+      "To": "10:30",
+      "DayWeek": 4,
+      "BusinessId": 4,
+      "ProfessionalId": 2
+    },
+    {
+      "From": "10:45",
+      "To": "11:00",
+      "DayWeek": 4,
+      "BusinessId": 4,
+      "ProfessionalId": 2
+    },
+    {
+      "From": "11:00",
+      "To": "11:30",
+      "DayWeek": 4,
+      "BusinessId": 4,
+      "ProfessionalId": 2
+    },
+    {
+      "From": "08:00",
+      "To": "08:30",
+      "DayWeek": 5,
+      "BusinessId": 2,
+      "ProfessionalId": 2
+    },
+    {
+      "From": "08:30",
+      "To": "09:00",
+      "DayWeek": 5,
+      "BusinessId": 2,
+      "ProfessionalId": 2
+    },
+    {
+      "From": "09:00",
+      "To": "09:30",
+      "DayWeek": 5,
+      "BusinessId": 2,
+      "ProfessionalId": 2
+    },
+    {
+      "From": "09:30",
+      "To": "10:00",
+      "DayWeek": 5,
+      "BusinessId": 2,
+      "ProfessionalId": 2
+    },
+    {
+      "From": "10:30",
+      "To": "11:00",
+      "DayWeek": 5,
+      "BusinessId": 2,
+      "ProfessionalId": 2
+    },
+    {
+      "From": "11:00",
+      "To": "11:30",
+      "DayWeek": 5,
+      "BusinessId": 2,
+      "ProfessionalId": 2
+    },
+    {
+      "From": "08:00",
+      "To": "08:30",
+      "DayWeek": 6,
+      "BusinessId": 1,
+      "ProfessionalId": 1
+    },
+    {
+      "From": "08:30",
+      "To": "09:00",
+      "DayWeek": 6,
+      "BusinessId": 1,
+      "ProfessionalId": 1
+    },
+    {
+      "From": "09:00",
+      "To": "09:30",
+      "DayWeek": 6,
+      "BusinessId": 1,
+      "ProfessionalId": 1
+    },
+    {
+      "From": "09:30",
+      "To": "10:00",
+      "DayWeek": 6,
+      "BusinessId": 1,
+      "ProfessionalId": 1
+    },
+    {
+      "From": "10:00",
+      "To": "10:30",
+      "DayWeek": 6,
+      "BusinessId": 1,
+      "ProfessionalId": 1
+    },
+    {
+      "From": "10:30",
+      "To": "11:00",
+      "DayWeek": 6,
+      "BusinessId": 1,
+      "ProfessionalId": 1
+    },
+    {
+      "From": "11:00",
+      "To": "11:30",
+      "DayWeek": 6,
+      "BusinessId": 1,
+      "ProfessionalId": 1
+    },
+    {
+      "From": "11:30",
+      "To": "12:00",
+      "DayWeek": 6,
+      "BusinessId": 1,
+      "ProfessionalId": 1
+    },
+    {
+      "From": "13:00",
+      "To": "13:30",
+      "DayWeek": 6,
+      "BusinessId": 1,
+      "ProfessionalId": 1
+    },
+    {
+      "From": "13:30",
+      "To": "14:00",
+      "DayWeek": 6,
+      "BusinessId": 1,
+      "ProfessionalId": 1
+    },
+    {
+      "From": "14:45",
+      "To": "15:00",
+      "DayWeek": 6,
+      "BusinessId": 1,
+      "ProfessionalId": 1
+    },
+    {
+      "From": "15:00",
+      "To": "15:30",
+      "DayWeek": 6,
+      "BusinessId": 1,
+      "ProfessionalId": 1
+    }
+  ]

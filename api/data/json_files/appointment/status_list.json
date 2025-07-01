@@ -1,0 +1,68 @@
+[
+    {
+      "Description": "1-Confirmado",
+      "Color": "#009688",
+      "z_LastChange_UserId": 1,
+      "Type": "CONFIRMED",
+      "Reference": "Appointment",
+      "Active": "X",
+      "ReferenceType": "SchedulingStatus",
+      "z_LastChange_Date": "2025-06-28T18:18:06.000Z",
+      "id": 5609543400816640
+    },
+    {
+      "Description": "2-Pendente",
+      "Color": "#FFC107",
+      "z_LastChange_UserId": 1,
+      "Type": "PENDING",
+      "Reference": "Appointment",
+      "Active": "X",
+      "ReferenceType": "SchedulingStatus",
+      "z_LastChange_Date": "2025-06-28T18:18:06.000Z",
+      "id": 5609543400816641
+    },
+    {
+      "Description": "3-Cancelado",
+      "Color": "#F44336",
+      "z_LastChange_UserId": 1,
+      "Type": "CANCELED",
+      "Reference": "Appointment",
+      "Active": "X",
+      "ReferenceType": "SchedulingStatus",
+      "z_LastChange_Date": "2025-06-28T18:18:06.000Z",
+      "id": 5609543400816642
+    },
+    {
+      "Description": "4-Realizado",
+      "Color": "#2196F3",
+      "z_LastChange_UserId": 1,
+      "Type": "COMPLETED",
+      "Reference": "Appointment",
+      "Active": "X",
+      "ReferenceType": "SchedulingStatus",
+      "z_LastChange_Date": "2025-06-28T18:18:06.000Z",
+      "id": 5609543400816643
+    },
+    {
+      "Description": "5-Remarcado",
+      "Color": "#9C27B0",
+      "z_LastChange_UserId": 1,
+      "Type": "RESCHEDULED",
+      "Reference": "Appointment",
+      "Active": "X",
+      "ReferenceType": "SchedulingStatus",
+      "z_LastChange_Date": "2025-06-28T18:18:06.000Z",
+      "id": 5609543400816644
+    },
+    {
+      "Description": "6-Ausente",
+      "Color": "#607D8B",
+      "z_LastChange_UserId": 1,
+      "Type": "NO_SHOW",
+      "Reference": "Appointment",
+      "Active": "X",
+      "ReferenceType": "SchedulingStatus",
+      "z_LastChange_Date": "2025-06-28T18:18:06.000Z",
+      "id": 5609543400816645
+    }
+  ]

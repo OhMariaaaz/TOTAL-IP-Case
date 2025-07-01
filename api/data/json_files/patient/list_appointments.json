@@ -1,0 +1,50 @@
+[
+    {
+      "id": 101,
+      "AtomicDate": 20250701,
+      "date": "2025-07-01T09:00:00.000Z",
+      "PatientName": "Ana Silva",
+      "fromTime": "09:00",
+      "toTime": "09:30"
+    },
+    {
+      "id": 102,
+      "AtomicDate": 20250702,
+      "date": "2025-07-02T14:15:00.000Z",
+      "PatientName": "Bruno Costa",
+      "fromTime": "14:15",
+      "toTime": "14:45"
+    },
+    {
+      "id": 103,
+      "AtomicDate": 20250703,
+      "date": "2025-07-03T11:00:00.000Z",
+      "PatientName": "Daniel Santos",
+      "fromTime": "11:00",
+      "toTime": "11:30"
+    },
+    {
+      "id": 104,
+      "AtomicDate": 20250704,
+      "date": "2025-07-04T10:30:00.000Z",
+      "PatientName": "Carla Lima",
+      "fromTime": "10:30",
+      "toTime": "10:45"
+    },
+    {
+        "id": 105,
+        "AtomicDate": 20250705,
+        "date": "2025-07-05T10:00:00.000Z",
+        "PatientName": "Carla Lima",
+        "fromTime": "10:00",
+        "toTime": "10:30"
+      },
+      {
+        "id": 106,
+        "AtomicDate": 20250706,
+        "date": "2025-07-06T14:00:00.000Z",
+        "PatientName": "Carla Lima",
+        "fromTime": "14:00",
+        "toTime": "14:45"
+      }
+  ]
