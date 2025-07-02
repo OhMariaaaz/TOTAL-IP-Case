@@ -17,7 +17,7 @@ client = Client(account_sid, auth_token)
 app = Flask(__name__)
 
 # --- Armazenamento de Estado da Conversa (ATENÇÃO: Volátil!) ---
-# Para um sistema real, use um banco de dados (ex: Redis) para persistir o estado.
+# Para um sistema real, use um banco de dados (ex: Redis) para persistir o estado. No meu caso, só os arquivos JSON já serviram.
 # Este dicionário armazenará o estado da conversa para cada número de telefone.
 conversation_states = {} # { 'whatsapp:+55119XXXXXXXX': {'state': 'menu', 'data': {}}, ... }
 
@@ -545,6 +545,7 @@ def get_main_menu_text():
 # --- FUNÇÕES AUXILIARES GLOBAIS ---
 # Mantenho estas funções, mas a get_validated_input e clear_screen
 # não serão mais usadas para interação com o WhatsApp diretamente.
+# Foram criadas apenas para testes no console e podem ser reaproveitadas futuramente.
 
 def get_validated_input(prompt, validation_regex=None, error_message="Entrada inválida. Por favor, tente novamente."):
     """
@@ -615,7 +616,7 @@ def _make_api_request(method, endpoint, json_data=None):
         return False, f"Erro ao decodificar JSON da resposta da API: {response.text}"
 
 
-# --- ROTAS DA API FLASK (inalteradas na sua lógica) ---
+# --- ROTAS DA API FLASK ---
 @app.route('/TOTAL-IP-case/patient', methods=['GET'])
 def all_patient():
     return jsonify(config.patients_get), 200
@@ -645,7 +646,7 @@ def get_appointment_api(id):
 def check_tomorrow_appointments():
     """
     Verifica agendamentos para o dia seguinte e envia mensagens de confirmação via Twilio.
-    Esta rota continua a mesma, mas agora usa a função refatorada `send_message`.
+    função refatorada `send_message`.
     """
     tomorrow_date = date.today() + timedelta(days=1)
     sent_messages = []
@@ -1002,7 +1003,7 @@ def update_appointment_console_input(current_appointment_data):
 #     return "Console Menu Iniciado (Verifique o terminal onde o Flask está rodando)", 200
 
 # A função run_console_menu original foi descontinuada para interação WhatsApp.
-# Se precisar dela para testes de console, copie e cole, e chame-a diretamente no `main.py`
+# Se precisar dela para testes de console, copio e colo, e chamo diretamente no `main.py`
 # em vez de `initializer_host()`.
 def run_console_menu_for_testing():
     """
