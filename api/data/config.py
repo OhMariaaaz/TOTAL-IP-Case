@@ -105,3 +105,4 @@ except FileNotFoundError:
 except json.JSONDecodeError:
     business_list = []
     print("Erro: Falha ao decodificar 'api/data/json_files/business/list.json'. Verifique a sintaxe JSON.")
+    
