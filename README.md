@@ -48,8 +48,8 @@ python --version
 Primeiro, clone o repositório do seu projeto para sua máquina local e navegue até o diretório do projeto:
 
 ```bash
-git clone <URL_DO_SEU_REPOSITORIO>
-cd <nome_do_diretorio_do_projeto>
+git clone <url>
+cd <projeto>
 ```
 
 ### 2\. Criar e Ativar um Ambiente Virtual
@@ -88,115 +88,7 @@ TWILIO_ACCOUNT_SID='ACxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
 TWILIO_AUTH_TOKEN='your_auth_token_here'
 ```
 
-  * **Observação Importante**: No seu código `routes.py`, as credenciais estão atualmente embutidas (`'ACd8f5afe3d0aa5980742eae4575323d7a'` e `'f7c0ebfdcd2b297507ba135fb20e7a09'`). Para que o `.env` funcione, você precisa garantir que o `routes.py` leia essas variáveis do ambiente, o que já está configurado na linha:
-    ```python
-    account_sid = os.environ.get('TWILIO_ACCOUNT_SID', 'ACd8f5afe3d0aa5980742eae4575323d7a')
-    auth_token = os.environ.get('TWILIO_AUTH_TOKEN', 'f7c0ebfdcd2b297507ba135fb20e7a09')
-    ```
-    Isso significa que, se as variáveis de ambiente estiverem presentes no `.env` e carregadas (o `python-dotenv` faz isso automaticamente ao iniciar a aplicação), elas serão usadas. Caso contrário, os valores padrão (hardcoded) serão utilizados. Para um ambiente de produção, é **altamente recomendado** que esses valores embutidos sejam removidos e apenas as variáveis de ambiente sejam usadas.
-
-### 5\. Configurar Dados (data.py)
-
-O projeto depende de um arquivo `data.py` para simular um banco de dados com informações de clínicas, pacientes e agendamentos. Crie um arquivo chamado `data.py` na raiz do seu projeto (ao lado de `main.py` e `routes.py`) e preencha-o com o seguinte conteúdo de exemplo:
-
-```python
-# data.py
-import datetime
-
-# --- DADOS MOCKADOS PARA SIMULAR UM BANCO DE DADOS ---
-
-# Lista de negócios/clínicas disponíveis
-business_list = [
-    {"id": 1, "BusinessName": "Clínica Saúde Total", "Address": "Rua das Flores, 100", "MobilePhone": "5511999991111"},
-    {"id": 2, "BusinessName": "Consultório Bem Estar", "Address": "Avenida do Sol, 250", "MobilePhone": "5511988882222"},
-    {"id": 3, "BusinessName": "Clínica Odonto", "Address": "Praça Central, 50", "MobilePhone": "5511977773333"},
-]
-
-# Lista de pacientes (simulando um GET de pacientes)
-patients_get = [
-    {"Name": "João Silva", "OtherDocumentId": "11122233344", "MobilePhone": "5511987654321", "Email": "joao.silva@example.com"},
-    {"Name": "Maria Souza", "OtherDocumentId": "55566677788", "MobilePhone": "5511912345678", "Email": "maria.souza@example.com"},
-    {"Name": "Carlos Oliveira", "OtherDocumentId": "99988877766", "MobilePhone": "5511900000000", "Email": "carlos.oliver@example.com"},
-]
-
-# Lista de agendamentos existentes (simulando um GET de agendamentos)
-get_appointment_data = [
-    {
-        "Id": "agendamento-uuid-1",
-        "PatientName": "João Silva",
-        "Email": "joao.silva@example.com",
-        "MobilePhone": "5511987654321",
-        "OtherDocumentId": "11122233344",
-        "ShedulingReason": "Consulta de rotina",
-        "NotesPatient": "Paciente com histórico de alergia a penicilina.",
-        "Clinic_BusinessId": 1,
-        "FromTime": "10:00",
-        "ToTime": "11:00",
-        "Date": (datetime.date.today() + datetime.timedelta(days=7)).isoformat() + "T00:00:00.000Z", # Exemplo: daqui a 7 dias
-        "AtomicDate": (datetime.date.today() + datetime.timedelta(days=7)).strftime("%Y%m%d"),
-        "SK_DateFirstTime": int((datetime.date.today() + datetime.timedelta(days=7)).strftime("%Y%m%d") + "1000"),
-        "Dentist_PersonId": 101,
-        "CreateUserId": 201,
-        "IsOnlineScheduling": True,
-        "ShedulingAccepted": True,
-        "Type": "CLINICORP_INTEGRATION",
-        "Deleted": None
-    },
-    {
-        "Id": "agendamento-uuid-2",
-        "PatientName": "Maria Souza",
-        "Email": "maria.souza@example.com",
-        "MobilePhone": "5511912345678",
-        "OtherDocumentId": "55566677788",
-        "ShedulingReason": "Exame de sangue",
-        "NotesPatient": "",
-        "Clinic_BusinessId": 2,
-        "FromTime": "14:30",
-        "ToTime": "15:00",
-        "Date": (datetime.date.today() + datetime.timedelta(days=10)).isoformat() + "T00:00:00.000Z", # Exemplo: daqui a 10 dias
-        "AtomicDate": (datetime.date.today() + datetime.timedelta(days=10)).strftime("%Y%m%d"),
-        "SK_DateFirstTime": int((datetime.date.today() + datetime.timedelta(days=10)).strftime("%Y%m%d") + "1430"),
-        "Dentist_PersonId": 102,
-        "CreateUserId": 202,
-        "IsOnlineScheduling": True,
-        "ShedulingAccepted": True,
-        "Type": "CLINICORP_INTEGRATION",
-        "Deleted": None
-    }
-]
-
-# Função para simular horários disponíveis
-def get_available_days_data():
-    """Retorna dados de dias e horários disponíveis mockados.
-    Isso deve simular a resposta de uma API de disponibilidade.
-    """
-    today = datetime.date.today()
-    tomorrow = today + datetime.timedelta(days=1)
-    day_after_tomorrow = today + datetime.timedelta(days=2)
-
-    return [
-        {
-            "Date": tomorrow.isoformat(),
-            "Week": tomorrow.strftime("%A").capitalize().replace('feira', '-feira'), # Ex: "Terça-feira"
-            "AvailableTimes": [
-                {"from": "09:00", "to": "10:00", "isSelectable": True, "isAvailable": True},
-                {"from": "10:00", "to": "11:00", "isSelectable": True, "isAvailable": True},
-                {"from": "11:00", "to": "12:00", "isSelectable": False, "isAvailable": False}, # Exemplo: não disponível
-                {"from": "14:00", "to": "15:00", "isSelectable": True, "isAvailable": True},
-            ]
-        },
-        {
-            "Date": day_after_tomorrow.isoformat(),
-            "Week": day_after_tomorrow.strftime("%A").capitalize().replace('feira', '-feira'), # Ex: "Quarta-feira"
-            "AvailableTimes": [
-                {"from": "08:00", "to": "09:00", "isSelectable": True, "isAvailable": True},
-                {"from": "09:00", "to": "10:00", "isSelectable": True, "isAvailable": True},
-            ]
-        }
-    ]
-```
-
-### 6\. Executar a Aplicação Flask
+### 5\. Executar a Aplicação Flask
 
 Com todas as dependências instaladas e os arquivos configurados, você pode iniciar o servidor Flask executando o arquivo `main.py`:
 
